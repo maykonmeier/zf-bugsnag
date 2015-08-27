@@ -7,15 +7,12 @@
         "bugsnag"
     ],
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=5.4.0",
         "bugsnag/bugsnag": "2.*"
     },
     "autoload": {
-        "psr-0": {
-            "ZfBugsnag": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+        "psr-4": {
+            "ZfBugsnag\\": "src/ZfBugsnag/"
+        }
     }
 }
